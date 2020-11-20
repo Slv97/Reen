@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.button_order {
+    background-color: #00bc9c;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px 0;
+    width: 300px;
+    border-radius: 4px;
+    cursor: pointer;
+    border:  none;
+    border-bottom: 2px solid #00a085;
+    }
+
+.header_top_wrapper {
+    display: flex;
+}
+
+.header_top {
+    background-color: #f5f7fa;
+    border-bottom: 1px solid #e6e9ed;
+    padding: 15px 0;
+}
+
+.header_top_contacts a {
+    color: #506a85;
+    text-decoration: none;
+
+}
+
+.header_top_contacts a:not(:first-child) {
+    margin-left: 30px;
+}
+
+.header_top_contacts .ico {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header_top_contacts .ico_mail {
+    width: 11px;
+    height: 9px;
+    background-image: url(../images/icon-mail.png);
+}
+
+.header_top_contacts .ico_tel {
+    width: 7px;
+    height: 13px;
+    background-image: url(../images/icon-mobile.png);    
+}
+
+.header_top_social {
+    margin-left: auto;
+}
+
+.header_top_social a {
+    color: #506a85;
+    text-decoration: none;
+}
+
+.header_top_social a:not(:first-child) {
+    margin-left: 15px;
+}
+
+.header_top_social .ico {
+    display: inline-block;
+}
+
+.header_top_social .ico_fb {
+    width: 7px;
+    height: 13px;
+    background-image: url(../images/icon-f.png);
+}
+
+.header_top_social .ico_g {
+    width: 11px;
+    height: 11px;
+    background-image: url(../images/icon-g.png);
+}
+
+.header_top_social .ico_tw {
+    width: 11px;
+    height: 9px;
+    background-image: url(../images/icon-tw.png);
+}
+
+.header_top_social .ico_print {
+    width: 9px;
+    height: 11px;
+    background-image: url(../images/icon-p.png);
+}
+
+.header_top_social .ico_be {
+    width: 13px;
+    height: 10px;
+    background-image: url(../images/icon-be.png);
+}
+
+.header_top_social .ico_dr {
+    width: 12px;
+    height: 11px;
+    background-image: url(../images/icon-dr.png);
+}
+
+.header_bot {
+    padding: 35px 0;
+}
+
+.header_bot_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 80px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    color: #506a85;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.promo {
+    background-color: #415c78;
+    height: 800px;
+    background-image: url(../images/beak.png);
+    background-size: cover;
+}
+
+.promo > .container,
+.promo_wrapper {
+    height: 100%;
+}
+
+.promo_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.promo_content {
+    text-align: center;
+}
+
+.promo_content h3 {
+    font-size: 78px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.promo_content p {
+    color: #a3b1bf;
+    font-size: 22px;
+}
+
+.promo_content .button_order {
+    margin-top: 60px;
+}
+
