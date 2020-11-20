@@ -249,3 +249,40 @@ body {
     background-color: #f2f5f7;
 }
 
+.portfolio_list {
+    margin-top: 140px;
+    display: flex;
+}
+
+.portfolio_item {
+    flex: 1 1;
+}
+
+.portfolio_item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.portfolio_item img {
+    width: 100%;
+}
+
+.portfolio_item .title {
+    background-color: #fff;
+    border-left: 1px solid #e6e9ed;
+    border-right: 1px solid #e6e9ed;
+    border-bottom: 2px solid #e6e9ed;
+    border-radius: 3px;
+    text-align: center;
+    padding: 35px 0; 
+    margin-top: -7px;
+}
+
+.portfolio_item .title a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #506a85;
+    display: block;
+    margin-bottom: 15px;
+}
+
